@@ -1,9 +1,4 @@
 Rails.application.routes.draw do
-  get 'users/new'
-
-  get 'users/new'
-
-  resources :users
   
   get 'user/new'
 
@@ -16,6 +11,9 @@ Rails.application.routes.draw do
   get 'contact' => 'static_pages#contact'
 
   get 'signup'  => 'users#new'
+
+  
+  resources :users
 
 end
 
