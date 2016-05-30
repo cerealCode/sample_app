@@ -6,7 +6,12 @@ gem 'bootstrap-sass',       '3.2.0.0'
 gem 'rails', '4.2.2'
 #ensure that an attacker won’t be able to log in
 gem 'bcrypt', '3.1.7'
-
+#Fake sample users
+gem 'faker',                '1.4.2'
+#paginate users
+gem 'will_paginate',           '3.0.7'
+#css for pagination
+gem 'bootstrap-will_paginate', '0.0.10'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -26,7 +31,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 # Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
+#gem 'bcrypt', '~> 3.1.7'
 
 # Use Unicorn as the app server
 # gem 'unicorn'
